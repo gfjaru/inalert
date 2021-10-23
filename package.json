@@ -1,0 +1,37 @@
+{
+  "name": "inalert",
+  "version": "1.0.0",
+  "description": "Alert an event using various webhook services.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gfjaru/inalert"
+  },
+  "dependencies": {
+    "axios": "^0.23.0"
+  },
+  "keywords": ["alert", "webhook"],
+  "author": "Gandara Fajar Umbara <fajar@umbara.me>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gfjaru/inalert/issues"
+  },
+  "homepage": "https://github.com/gfjaru/inalert",
+  "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "prettier": "^2.4.1",
+    "ts-jest": "^27.0.7",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.4.4"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
