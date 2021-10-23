@@ -28,6 +28,8 @@ export class InAlert implements InAlertTypes {
         if (this.config.useSlack) slack(this.config.useSlack, message);
         else throw new ClientError('Missing configuration: Slack not configured.');
         break;
+      default:
+        throw new ClientError('Platform not supported or not yet implemented.');
     }
   }
 }
