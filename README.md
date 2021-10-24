@@ -1,5 +1,7 @@
 # InAlert
 
+[![npm version](https://badge.fury.io/js/inalert.svg)](https://badge.fury.io/js/inalert)
+
 Webhook wrapper for your application, 🐙 bonk your error message to your favorite platform (see Supports).
 
 ![inanis-bonk](https://walfiegif.files.wordpress.com/2020/11/out-transparent-17.gif?w=220)
