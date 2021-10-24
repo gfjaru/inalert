@@ -9,11 +9,11 @@ export class InAlert implements InAlertTypes {
   config: MainConfig;
 
   constructor(config: MainConfig) {
+    if (Object.keys(config).length < 1) throw new ClientError('Missing configuration: configure atleast one platform.');
     this.config = config;
   }
 
   send(message: string) {
-    if (!this.config) throw new ClientError('Missing configuration: configure atleast one platform.');
     if (this.config.useDiscord) discord(this.config.useDiscord, message);
     if (this.config.useSlack) slack(this.config.useSlack, message);
   }
