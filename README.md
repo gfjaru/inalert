@@ -18,6 +18,12 @@ Discord: https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhoo
 
 Slack: https://slack.com/intl/en-id/help/articles/115005265063-Incoming-webhooks-for-Slack
 
+### Install
+
+```
+npm install inalert
+```
+
 ### Using all platform
 
 ```
