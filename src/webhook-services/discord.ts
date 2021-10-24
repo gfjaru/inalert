@@ -13,7 +13,8 @@ function discord(config: PlatformConfig, message: string) {
 
   const { url } = config;
 
-  if (!url.match(/https:\/\/(canary\.|beta\.)?discord\.com\/api\/webhooks\/([0-9]+)\/(.+)/g)) throw new InvariantError('Misconfiguration: discord webhook url is invalid.')
+  if (!url.match(/https:\/\/(canary\.|beta\.)?discord\.com\/api\/webhooks\/([0-9]+)\/(.+)/g))
+    throw new InvariantError('Misconfiguration: discord webhook url is invalid.');
 
   try {
     axios.post(url, format);

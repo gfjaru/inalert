@@ -11,7 +11,8 @@ function slack(config: PlatformConfig, message: string) {
 
   const { url } = config;
 
-  if (!url.match(/https:\/\/hooks\.slack\.com\/services\/([\w\d+]+)\/([\w\d+]+)\/([\w\d+]+)/g)) throw new InvariantError('Misconfiguration: discord webhook url is invalid.')
+  if (!url.match(/https:\/\/hooks\.slack\.com\/services\/([\w\d+]+)\/([\w\d+]+)\/([\w\d+]+)/g))
+    throw new InvariantError('Misconfiguration: discord webhook url is invalid.');
 
   try {
     axios.post(url, format);
