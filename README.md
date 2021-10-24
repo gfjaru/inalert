@@ -1,6 +1,14 @@
 # InAlert
 
-Webhook wrapper for Alerting an error from node application.
+Webhook wrapper for your application, 🐙 bonk your error message to your favorite platform (see Supports).
+
+![inanis-bonk](https://walfiegif.files.wordpress.com/2020/11/out-transparent-17.gif?w=890)
+
+(Image by walfie, https://twitter.com/walfieee/status/1320231399467683842)
+
+## Supports
+
+Currently InAlert support 2 platform, Slack and Discord.
 
 ## Usage
 
@@ -9,8 +17,6 @@ To use this you need webhook url from Discord or Slack, refer to their official 
 Discord: https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks
 
 Slack: https://slack.com/intl/en-id/help/articles/115005265063-Incoming-webhooks-for-Slack
-
-
 
 ### Using all platform
 
