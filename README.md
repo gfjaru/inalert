@@ -2,7 +2,7 @@
 
 Webhook wrapper for your application, 🐙 bonk your error message to your favorite platform (see Supports).
 
-![inanis-bonk](https://walfiegif.files.wordpress.com/2020/11/out-transparent-17.gif?w=890)
+![inanis-bonk](https://walfiegif.files.wordpress.com/2020/11/out-transparent-17.gif?w=220)
 
 (Image by walfie, https://twitter.com/walfieee/status/1320231399467683842)
 
