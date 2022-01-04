@@ -13,7 +13,7 @@ function discord(config: PlatformConfig, message: string) {
 
   const { url } = config;
 
-  if (!url.match(/https:\/\/(canary\.|beta\.)?discord\.com\/api\/webhooks\/([0-9]+)\/(.+)/g))
+  if (!url.match(/(https?):\/\/((?:ptb\.|canary\.)?discord(?:app)?\.com)\/api(?:\/)?(v\d{1,2})?\/webhooks\/(\d{17,19})\/([\w\-]{68})/g))
     throw new InvariantError('Misconfiguration: discord webhook url is invalid.');
 
   try {
